@@ -4,7 +4,7 @@ body{
     nav{
         width: 100%;
         height: 50px;
-        background-color: rgb(179, 108, 108);
+        background-color: rgb(108, 185, 236);
 
         display: flex;
         align-items: center;
@@ -12,23 +12,40 @@ body{
     }
 
     nav a{
-        color: black;
+        color: rgba(0, 0, 0, 0.877);
         text-decoration: none;
         font-size: 15pt;
-        }
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
 
     nav a:hover{
         text-decoration: underline;
-        color: orangered;
+        color: brown;
+        font-size: 17pt;
     }
 
     header{
         width: 100%;
-        height: 350px;
+        height:566px;
         background-image: url(azulopala.jpg);
         background-size: cover;
         background-position: center;
-        border-bottom: 15px rgb(179, 108, 108);
+        border-bottom: rgb(108, 185, 236) solid;
     }
 
+    footer{
+        width: 100%;
+        height: 52px;
+        align-items: center;
 
+        display: flex;
+        justify-content: center;
+        background-color: rgb(108, 185, 236);
+    }
+
+    footer div{
+        width: 200px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
